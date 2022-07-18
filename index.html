@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arrays</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./action.js">
+</head>
+<body>
+    <div class="main">
+        <h1 class="heading">thuc hanh mang</h1>
+        <form action="" onsubmit="return false">
+            <p class="form-title">vui long nhap cac so: </p>
+            <div class="input-su">
+                <input type="number" class="form-input" id = 'nhap' placeholder="an enter de nhap tiep" value="">
+                <button type="button" id="nut" onclick="inputNum()" style="display:none"></button>
+                <button type="button" id="result" onclick="calc()" class="result">result</button>
+                 
+            </div>
+        </form>
+        <div class="footer"></div>
+        <p class="form-title">ket qua:  </p>
+        <p class="form-title" id = 'day'></p>
+        <p class="form-title" id="so-chan"></p>
+        <p class="form-title" id="so-le"></p>
+        <p class="form-title" id="tong"></p>
+        <p class="form-title" id="max"></p>
+        <p class="form-title" id="snt"></p>
+
+        <button type="button" class = "exit" onclick="exit()">X</button>
+    </div>
+
+    <script src="./action.js"></script>
+</body>
